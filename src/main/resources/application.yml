@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/sporty_shoes
+    username: suraj
+    password: suraj
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  redis:
+    port: 6379
+    password: suraj
+    host: 127.0.0.1
